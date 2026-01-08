@@ -33,6 +33,48 @@ body{
     max-width: max-content;
 
 }
+.button-blue {
+    border-radius: 8px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #5490F5;
+    color: white;
+    max-width: max-content;
+
+}
+.button-green {
+    border-radius: 8px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #09A15C;
+    color: white;
+    max-width: max-content;
+
+}
+.button-gold {
+    border-radius: 8px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFC239;
+    color: white;
+    max-width: max-content;
+
+}
+.vision-section-card-color1 {
+    background-color: #5490F533;    
+}
+.vision-section-card-color2 {
+    background-color: #C6E4D6;    
+}
+.vision-section-card-color3 {
+    background-color: #F7EBCF;    
+}
 .row-reverse {
     flex-direction: row-reverse;
 }
@@ -162,6 +204,51 @@ nav {
     display: flex;
     gap: 15px;
     margin-bottom: 12px;
+}
+.vision-section-heading {
+    margin-top: 80px;
+}
+.vision-section-heading h2 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.vision-section-heading p {
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.vision-section-card-parent{
+    display: flex;
+    gap: 24px;
+}
+.vision-section-card {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    justify-content: space-between;
+    gap: 20px;
+    /* background-color: #5490F533; */
+    padding: 24px 24px;
+}
+.vision-section-card img {
+    height: 64px;
+    width: 64px;
+}
+.vision-section-card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #0E0E0ECC;
+}
+.vision-section-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0EB3;
 }
 
 
