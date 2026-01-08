@@ -250,42 +250,6 @@ nav {
     line-height: 24px;
     color: #0E0E0EB3;
 }
-.hero2-section {
-    margin-top: 20px;
-}
-.hero2-card-parent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #C6E4D6;
-    border-radius: 24px;
-}
-.hero2-card {
-    display: flex;
-    flex-direction: column;
-    /* gap: 20px; */
-    /* border: 1px solid red; */
-    border-radius: 24px;
-    background-color: #C6E4D6;
-    padding: 60px;
-}
-
-.hero2-card h2{
-    font-size: 24px;
-    font-weight: 500px;
-    line-height: 29px;
-    color: #0E0E0E80
-}
-.hero2-card p{
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 67px;
-    color: #0E0E0E;
-    margin-top: 16px;
-}
-.hero2-card button{
-    margin-top: 24px;
-}
 
 
 
